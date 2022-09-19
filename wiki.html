@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><!-- introduz o que vai ser o doc-->
+        <h1>Estudo do HTML</h1>
+        <h3>Conceitos introdutórios da linguagem</h3>
+        <nav> <!--Agrupa links de navegação, pode ser ancora ou liks externos-->
+            <ol>
+                <li><a href="#intro">Introdução</a></li>
+            </ol>
+
+        </nav>
+
+    </header>
+    <main><!-- Conteúdo mais importante do site, deve ser colocado em volta da main, texto, topicos...-->
+        <section><!--uso essa tag para bloco de seção-->
+            <h3>Uso de tags</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quas reprehenderit minus, velit sequi, nemo voluptatum, eveniet tempora veritatis laudantium facilis. Et eos modi consequatur dolor, doloremque repellendus voluptatibus asperiores.</p>
+        </section>
+        <section><!--uso essa tag para bloco de seção-->
+            <h3>Uso de tags</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quas reprehenderit minus, velit sequi, nemo voluptatum, eveniet tempora veritatis laudantium facilis. Et eos modi consequatur dolor, doloremque repellendus voluptatibus asperiores.</p>
+        </section>
+        <section>
+            <h3>Uso de tabelas</h3>
+            <table border="1" cellpadding="3" style="border-collapse: collapse;"
+            "> 
+                <thead><!--cabeçalho da tabela-->
+                    <tr>
+                        <th colspan="4">Usuários</th>
+                    </tr>
+                    <tr><!--table row-->
+                        <th>Tipo</th>
+                        <th>Nome</th><!--table header-->
+                        <th>CPF</th>
+                        <th>Data Nasc.</th>
+
+                </tr><!--Tudo isso apenas para cabeçalho da tabela-->
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Funcionários</td>
+                    <td>Mayara Porto</td>
+                    <td>000.000.000-00</td>
+                    <td>13/07/1990</td>
+                </tr>
+                <tr>
+                    <td>Kira José</td>
+                    <td>000.000.000-00</td>
+                    <td>01/09/2021</td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan="2">Cliente</td>
+                    <td>Rajj Wilsa</td>
+                    <td>000.000.000-00</td>
+                    <td>01/09/2021</td>
+                </tr>
+                <tr>
+                    <td>Edu Fabricio</td>
+                    <td>000.000.000-00</td>
+                    <td>24/06/1979</td>
+                </tr>
+            </tbody>
+            </table>
+            <hr />
+            <table border="1" cellpadding="4" style="border-collapse: collapse;">
+                <tr>
+                    <td colspan="2">Celula 1-1</td>
+                    <td>celula 1-3</td>
+                </tr>
+                <td>Celula 2-1</td>
+                <td>Celula 2-2</td>
+                <td>Celula 2-3</td>
+            
+
+            </table>
+        </section>
+    </main>
+    <hr/><!--linha horizontal rule-->
+    <footer><!-- Dá informações sobre o autoria/ encerra o conteúdo(getfullyearescreverá o ano atual)-->
+        ©
+        <script>//Ja é JavaScript, por isso o comentário muda de <!-- para //
+            document.write(new Date().getFullYear())
+        </script>
+        SoulCode Academy
+    </footer>
+</body>
+</html>
