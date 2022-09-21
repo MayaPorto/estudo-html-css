@@ -1,0 +1,60 @@
+/*
+Para usar o css devemos linkar ele ao html destino*/
+p {
+    color: green;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+    font-family: 'Robote', sans-serif; /*falback*/
+
+}
+
+/* 
+https://fonts.google.com/?authuser=1
+Clica no card, ao ser levado para a página comercial dela, escolhe o nível da tipografia, na lateral aparecerá um link, cola no head do html, e coloca no font do css o nome da font
+
+
+TIPOS DE SELETOR BÁSICO
+1- Por elemento
+2- Por id(#) - estilização única
+3- Por class ( . ) - estilização para vários*/
+
+h1, h2, h3 {
+    color: white;
+}
+
+#meu-h1 {
+    font-weight: 100;
+}
+
+/*uso o id qnd quero estilizar um elemento especifico
+A class pode se aplicar em diversos elementos
+*/
+
+.cabecalho {
+    color: crimson;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.quadrado {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 8px;
+}
+
+.banner {
+    width: 50%;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
