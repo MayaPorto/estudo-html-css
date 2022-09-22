@@ -1,0 +1,57 @@
+h3 {
+    background-color: red;
+}
+
+.box1 {
+    background-color: aqua;
+    /* espaçamento interno*/
+    padding: 16px;
+    /*espaçamento externo*/
+    margin: 8px;
+}
+
+.box2 {
+    background-color: blueviolet;
+    /* T R B L = sentido horário*/
+    padding: 8px 20px 4px 10px;
+    margin: 8px 10px 20px 40px;
+}
+
+.box3 {
+    background-color: brown;
+    /* ordem = espessura, estilo, cor */
+    border: 3px solid yellow;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.box4 {
+    background-color: teal;
+    width: 400px;
+    padding: 20px;
+    border: 5px solid red;
+}
+
+/* = todos os elementos obedecerem o tamanho que estabeleci */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(" https://soulcodeacademy.org/assets/images/logo/light-logo.png");
+    /*bacground-repeat: no-repert; repetir as imagens para cobrir a pg / repeat-y: repetir na vertical
+
+    background-size: cover; cover== zoom / contein = respeita a dimensão
+
+    background-position: center; img centralizada/ right botom = mais baixo
+    background-attachment: fixed; na rolagem da pg ela aparece como marca d'agua
+
+
+    */
+}
+
+/* para que todas as div fiquem iguais é só definir os estilos e colocar o mesmo h em todas*/
+
+
